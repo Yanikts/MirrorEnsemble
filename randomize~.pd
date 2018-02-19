@@ -1,0 +1,24 @@
+#N canvas 3 83 1087 527 10;
+#X obj 49 45 inlet~;
+#X obj 143 63 noise~;
+#X obj 228 47 inlet;
+#X obj 228 71 * 0.01;
+#X obj 143 98 *~;
+#X obj 128 129 *~;
+#X obj 50 176 +~;
+#X obj 50 209 outlet~;
+#X text 47 27 signal à moduler;
+#X text 152 124 L'amplitude du bruit correspond au pourcentage de déviation
+\, positif et négatif \, de la valeur à moduler.;
+#X text 75 175 On ajoute le bruit pondéré au signal.;
+#X text 225 28 % de déviation (entre 0 et 100);
+#X text 5 3 Ajoute un pourcentage de déviation à une valeur en audio.
+;
+#X connect 0 0 5 0;
+#X connect 0 0 6 0;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 1;
+#X connect 4 0 5 1;
+#X connect 5 0 6 1;
+#X connect 6 0 7 0;
