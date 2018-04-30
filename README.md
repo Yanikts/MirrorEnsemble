@@ -11,7 +11,7 @@ This is the version that was presented at Université de Montréal on April 25th
 
 Modifications will include :
 - Improved response from the light sensors
-- Addition of sound cues to complement the aleatory comportment of the sensors
+- Addition of sound cues to complement the aleatory behaviour of the sensors
 - Additional visual scenes
 - CPU optimization
 
