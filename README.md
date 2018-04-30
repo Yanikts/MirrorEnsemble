@@ -1,8 +1,8 @@
 # MirrorEnsemble
-Use of a physical interface and RGB light sensors to manipulate sound in PureData.
+Use of a physical interface and High-dynamic light sensors to manipulate sound in PureData.
 
 Reflex is the main patch. To make it work properly, you need these objects and patches : grainclone~, granulateur1, granulateur2, granulateur3, HuzzahReceive (if you want to receive OSC message from a Adafruit Feather Huzzah microcontroler), lfo~, randomize and randomize~.
 
-You will also need the soundfiles "Souffle1.wav", "Lick1.wav" and "StetsonSamp3.wav" to get the desired results (most of the interaction between the sensors is hard-coded for these samples anyway).
+You will also need the soundfiles "Souffle1.wav", "Lick1.wav", "Lick2.wav" and "Lick3.wav" to get the desired results (most of the interaction between the sensors is hard-coded for these samples anyway).
 
 You can also run the Arduino code to send OSC messages to the "HuzzahReceive" patch.
